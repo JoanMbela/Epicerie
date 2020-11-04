@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    border: dashed 1px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    height: 50px;
+    width: 100%;
+}
+
+header img {
+    margin: 20px;
+}
+
+.banderole {
+
+    height: 150px;
+    width: 70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    padding: 8% 13% 8% 13%;
+
+    font-size: 40pt;
+    text-align: center;
+}
